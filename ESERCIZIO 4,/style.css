@@ -1,0 +1,57 @@
+body {
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  width: 378px;
+  height: 386px;
+}
+
+div {
+  font-weight: bolder;
+  text-align: center;
+  font-size: 32px;
+}
+
+.numeri {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  text-align: center;
+  border: 1px solid gray;
+  background-color: rgb(236, 240, 243);
+}
+
+.operatori {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border: 1px solid gray;
+  background-color: rgb(203, 215, 223);
+}
+
+.risultato {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-area: 3 / 4 / 7 / 5;
+  text-align: center;
+  align-content: center;
+  align-items: center;
+  border: 1px solid gray;
+  background-color: rgb(255, 101, 110);
+}
+
+.schermo {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  color: white;
+  grid-area: 1 / 1 / 2 / 5;
+  border: 1px solid gray;
+  background-color: rgb(57, 67, 72);
+}

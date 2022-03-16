@@ -1,0 +1,35 @@
+aside {
+  display: flex;
+  height: 100%;
+  width: 200px;
+  border: solid black 2px;
+}
+
+.contenitore {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+li {
+  display: flex;
+  color: #2b2b2b;
+}
+
+li:hover {
+  color: #2b2bb2;
+  transition: 0.3s;
+}
+
+a {
+  text-decoration: none;
+  color: #2b2b2b;
+}
+
+.avatar_e_logo {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

@@ -1,0 +1,12 @@
+body {
+  background-color: var(--black);
+  --orange: #ff8800;
+  --black: #011212;
+}
+
+.ball {
+  width: 100px;
+  height: 100px;
+  background-color: var(--orange);
+  border-radius: 50px;
+}
